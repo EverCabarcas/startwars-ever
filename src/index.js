@@ -1,7 +1,3 @@
-const starWarsNames = require("./starwars-names.json");
-const uniqueRandomArray = import('unique-random-array') ;
-
-module.exports = {
-  all: starWarsNames,
-  random: uniqueRandomArray(StartWarName),
-};
+export const getRandomNumber = (min, max) => {
+    return Math.random() * (max - min) + min
+  }
