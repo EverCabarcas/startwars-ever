@@ -1,0 +1,29 @@
+{
+  "name": "@all-people/public-npm",
+  "version": "1.1.0",
+  "description": "Get random start wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EverCabarcas/startwars-ever.git"
+  },
+  "keywords": [
+    "random",
+    "start",
+    "wars"
+  ],
+  "author": "Ever Cabarcas <evercabarcasmallarino@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EverCabarcas/startwars-ever/issues"
+  },
+  "homepage": "https://github.com/EverCabarcas/startwars-ever#readme",
+  "dependencies": {
+    "unique-random-array": "4.0.0",
+    "user": "0.0.0"
+  },
+  "devDependencies": {}
+}
